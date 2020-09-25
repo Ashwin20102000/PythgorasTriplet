@@ -20,6 +20,7 @@ void pythArray(int Arr[],int N){
     for(int j=0;j<N-i-1;j++){
       if(Arr[j]+Arr[j+1]==K){
         check = 1;
+        break;
       }
     }
     itr--;
